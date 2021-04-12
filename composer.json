@@ -1,0 +1,32 @@
+{
+    "name": "evgeniyakkuzin/lab10",
+    "description": "library",
+    "type": "library",
+	"license": "-",
+	"authors": [
+		{
+			"name": "evgeniyakkuzin",
+			"email": "evgeniyakkuzin@gmail.com"
+		}
+	],
+	
+	"minimum-stability": "dev",
+	
+	"autoload":{
+		"psr-4":{
+			"akkuzin\\": "akkuzin"
+		}
+	},
+	
+    "require": {
+		 "rok9ru/trpo-core": "2.0"
+	},
+
+	"repositories": [
+		{	
+			"type": "git",
+			"url": "https://github.com/rok9ru/trpo-core"
+		}
+	]
+
+}
